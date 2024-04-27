@@ -26,3 +26,5 @@ bindkey "^f" autosuggest-accept
 DRACULA_DISPLAY_GIT=0
 DRACULA_DISPLAY_TIME=1
 DRACULA_DISPLAY_CONTEXT=1
+
+RPS1='%F{blue}养君中和之正性，禁尔忿欲之邪心。'
