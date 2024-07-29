@@ -27,4 +27,16 @@ DRACULA_DISPLAY_GIT=0
 DRACULA_DISPLAY_TIME=1
 DRACULA_DISPLAY_CONTEXT=1
 
+export EDITOR=nvim
+
 RPS1='%F{blue}养君中和之正性，禁尔忿欲之邪心。'
+
+local dev_cfg=~/.zshdc
+
+if [ -d ~/.local/bin ]; then
+    PATH=~/.local/bin:$PATH
+fi
+
+if [ -f $dev_cfg ]; then
+    source $dev_cfg
+fi
